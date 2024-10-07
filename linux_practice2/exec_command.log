@@ -1,0 +1,28 @@
+cd /
+ls
+cd server_lesson
+ls
+cd linux_practice2
+ls
+cd ../
+ls -a
+cd linux_practice2
+ls -a
+vi .gitignore
+history 300
+touch exec_command.log
+ls
+echo history 300 > exec_command.log
+cat exec_command.log
+history 300
+history 300 && echo > exec_command.log
+cat exec_command.log
+history 300 && echo history 300 > exec_command.log
+cat exec_command.log
+history 300 -w exec.command.log
+history 300 -w exec_command.log
+history -w 300 exec_command.log
+cat exec_command.log
+history 300
+history
+history -w exec_command.log
